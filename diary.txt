@@ -1,0 +1,34 @@
+Data Science & Machine Learning Portfolio Diary
+
+Project: Student Performance Analysis and Prediction  
+Student: Terry Huynh  
+Student Number: C00300806
+
+Week 1 – 12–18 October 2026
+
+- Set up student.ipynb, the dataset and diary.txt.
+- Loaded and explored the dataset using pandas.
+- Checked for missing values and removed rows containing missing data.
+- Created graphs comparing different student factors with exam scores.
+- Compared the graphs and found that attendance and hours studied showed the clearest relationships with exam scores.
+- Calculated correlations between numerical features and exam scores.
+- Added headings and explanations to the notebook.
+
+Week 2 and 3 – 19 October – 1 November 2026
+
+- Continued working on the notebook and added explanations for the different stages of the project.
+- Created a baseline Linear Regression model using all available input features.
+- Split the dataset into training and testing sets.
+- Made predictions and evaluated the model using Mean Absolute Error (MAE) and R².
+- Compared the actual exam scores with the predicted scores.
+- Created a second Linear Regression model using Attendance and Hours_Studied.
+- Compared the results of both models.
+- Added a conclusion based on the analysis and model results.
+
+Sources
+- https://www.kaggle.com/datasets/lainguyn123/student-performance-factors/data - student performance factors dataset.
+- https://medium.com/@mahnoorsalman96/checking-for-missing-values-for-machine-learning-bb4c263a6555 – checking for missing values.
+- https://stackoverflow.com/questions/51960348/pandas-remove-rows-with-missing-data – removing rows with missing data.
+- https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html - splitting data into training and testing sets.
+- https://medium.com/@srivastavashivansh8922/evaluating-model-performance-understanding-mae-mse-rmse-and-r%C2%B2-score-5516e10fe8d6 - MAE and R².
+- https://www.w3schools.com/python/python_ml_linear_regression.asp – understanding Linear Regression in Python.
